@@ -1,0 +1,6 @@
+DEBUG: Unable to set new screen buffer size in CGameOverView::CGameOverView().
+DEBUG: Unable to set new console window size in CGameOverView::CGameOverView().
+DEBUG: Unable to set new screen buffer size in CGameOverView::CGameOverView().
+DEBUG: Unable to set new screen buffer size in CGameOverView::CGameOverView().
+DEBUG: Unable to set new screen buffer size in CGameOverView::CGameOverView().
+ERROR: Unknown object type in ViewManager::erase().

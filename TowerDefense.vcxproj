@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E0CD6788-E8D9-4312-9F2E-939F5236A43C}</ProjectGuid>
+    <RootNamespace>TowerDefense</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AboutView.cpp" />
+    <ClCompile Include="bounding_box.cpp" />
+    <ClCompile Include="bounding_box_helper.cpp" />
+    <ClCompile Include="cannon.cpp" />
+    <ClCompile Include="Coord.cpp" />
+    <ClCompile Include="Creature.cpp" />
+    <ClCompile Include="creature_info_view.cpp" />
+    <ClCompile Include="filename_view.cpp" />
+    <ClCompile Include="Filesystem.cpp" />
+    <ClCompile Include="GameOverView.cpp" />
+    <ClCompile Include="HelpView.cpp" />
+    <ClCompile Include="info_pane_view.cpp" />
+    <ClCompile Include="InputDeviceHandler.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="status_view.cpp" />
+    <ClCompile Include="td_console.cpp" />
+    <ClCompile Include="CreatureManager.cpp" />
+    <ClCompile Include="cursor.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="game_state.cpp" />
+    <ClCompile Include="player_info_view.cpp" />
+    <ClCompile Include="laser.cpp" />
+    <ClCompile Include="Logger\Logger.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="main_menu_view.cpp" />
+    <ClCompile Include="map.cpp" />
+    <ClCompile Include="map_view.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="sniper.cpp" />
+    <ClCompile Include="tile.cpp" />
+    <ClCompile Include="tile_info_view.cpp" />
+    <ClCompile Include="Tower.cpp" />
+    <ClCompile Include="TowerManager.cpp" />
+    <ClCompile Include="tower_info_view.cpp" />
+    <ClCompile Include="ViewManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AboutView.h" />
+    <ClInclude Include="bounding_box.h" />
+    <ClInclude Include="bounding_box_helper.h" />
+    <ClInclude Include="cannon.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="Coord.h" />
+    <ClInclude Include="creature_info_view.h" />
+    <ClInclude Include="filename_view.h" />
+    <ClInclude Include="Filesystem.h" />
+    <ClInclude Include="HelpView.h" />
+    <ClInclude Include="info_pane_view.h" />
+    <ClInclude Include="InputDeviceHandler.h" />
+    <ClInclude Include="status_view.h" />
+    <ClInclude Include="td_console.h" />
+    <ClInclude Include="creature.h" />
+    <ClInclude Include="CreatureManager.h" />
+    <ClInclude Include="cursor.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameOverView.h" />
+    <ClInclude Include="game_state.h" />
+    <ClInclude Include="player_info_view.h" />
+    <ClInclude Include="laser.h" />
+    <ClInclude Include="Logger\Logger.h" />
+    <ClInclude Include="main_menu_view.h" />
+    <ClInclude Include="map.h" />
+    <ClInclude Include="map_view.h" />
+    <ClInclude Include="model.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="sniper.h" />
+    <ClInclude Include="tile.h" />
+    <ClInclude Include="tile_info_view.h" />
+    <ClInclude Include="tower.h" />
+    <ClInclude Include="TowerManager.h" />
+    <ClInclude Include="tower_info_view.h" />
+    <ClInclude Include="view.h" />
+    <ClInclude Include="ViewManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="maps\basic1.tdm" />
+    <None Include="maps\basic2.tdm" />
+    <None Include="maps\basic3.tdm" />
+    <None Include="maps\basic4.tdm" />
+    <None Include="maps\basic5.tdm" />
+    <None Include="maps\basic6.tdm" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

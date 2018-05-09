@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Model">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{629c0c7b-b040-484b-b8f1-71983d138443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Model\Map">
+      <UniqueIdentifier>{63ebfc56-803a-4efa-bd80-24d3ccd09ac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\Map_View">
+      <UniqueIdentifier>{730e7502-681c-4cd2-8543-42ce846638d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\main_menu_view">
+      <UniqueIdentifier>{0ea12eb8-537b-47c3-85c2-b102ff5808a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\game_state">
+      <UniqueIdentifier>{3805844b-4358-4676-ab4e-2f13d3fb057e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\player">
+      <UniqueIdentifier>{21478ea0-4b80-4c50-99f1-c85efeb74a3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maps">
+      <UniqueIdentifier>{4c822602-2919-44c1-b123-9db3e95588ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\Game_Over_View">
+      <UniqueIdentifier>{c7a9fe07-5a08-4e01-a383-b960b2edbea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logger">
+      <UniqueIdentifier>{ff9dd6c6-d77e-4d14-a576-5d69709597b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\bounding_box">
+      <UniqueIdentifier>{2963872f-09a6-41b0-acf1-247293d0c04d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\td_console">
+      <UniqueIdentifier>{2c172ddd-da78-4a1f-a7a2-d8556d8f85fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\player_info_view">
+      <UniqueIdentifier>{3e37cffc-4fe6-460a-a952-26372ad47ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\tower_info_view">
+      <UniqueIdentifier>{62ccc7f0-92e9-482b-b9f0-7ea97b7d03d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\creature_info_view">
+      <UniqueIdentifier>{bb6f2b0e-3ded-4d9d-9697-350dea19b18f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\status_view">
+      <UniqueIdentifier>{3457995e-1e17-4f94-8623-5a064a1799a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Creature">
+      <UniqueIdentifier>{eb0fa1b5-7ea3-487e-b4da-38df25f79d4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Cursor">
+      <UniqueIdentifier>{2b6bfae4-694f-4916-aa43-9d61d3076185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Tile">
+      <UniqueIdentifier>{2d6f7179-c663-478f-a787-7ec2bc34cd70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Tower">
+      <UniqueIdentifier>{64dc41f7-db53-4834-b0e8-0f4fb3e64e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Tower\Cannon">
+      <UniqueIdentifier>{97bd5cfc-6385-4b15-b4ef-5a39a5152e5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Tower\Sniper">
+      <UniqueIdentifier>{39298b6b-c0db-4bc4-b9e3-a655a329fe84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Tower\Laser">
+      <UniqueIdentifier>{c63cc051-3236-4527-97a7-e61060a13270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\tile_info_view">
+      <UniqueIdentifier>{507a0432-68dc-4756-90a4-dcaa68d07dee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\info_pane_view">
+      <UniqueIdentifier>{74101469-32ef-43e9-802e-2c06fe52b60f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\filename_view">
+      <UniqueIdentifier>{554e1be9-c110-4c2f-b797-31fde2797bc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\input_device_handler">
+      <UniqueIdentifier>{68668b44-1bb4-4b5f-b191-03ba1e0729e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Filesystem">
+      <UniqueIdentifier>{da43b253-eac0-45c0-885c-91d915e164e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\About_View">
+      <UniqueIdentifier>{f180c31a-1943-419b-82ac-4a4f099dfec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\Help_View">
+      <UniqueIdentifier>{e9b9d8d5-3b49-4b60-9c24-95fc84e9a3a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Game.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="tile.cpp">
+      <Filter>Model\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>Model\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="map_view.cpp">
+      <Filter>View\Map_View</Filter>
+    </ClCompile>
+    <ClCompile Include="main_menu_view.cpp">
+      <Filter>View\main_menu_view</Filter>
+    </ClCompile>
+    <ClCompile Include="cursor.cpp">
+      <Filter>Model\Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="game_state.cpp">
+      <Filter>Model\game_state</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Model\player</Filter>
+    </ClCompile>
+    <ClCompile Include="cannon.cpp">
+      <Filter>Model\Tower\Cannon</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewManager.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="sniper.cpp">
+      <Filter>Model\Tower\Sniper</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatureManager.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger\Logger.cpp">
+      <Filter>Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="laser.cpp">
+      <Filter>Model\Tower\Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="bounding_box.cpp">
+      <Filter>View\bounding_box</Filter>
+    </ClCompile>
+    <ClCompile Include="td_console.cpp">
+      <Filter>Model\td_console</Filter>
+    </ClCompile>
+    <ClCompile Include="bounding_box_helper.cpp">
+      <Filter>View\bounding_box</Filter>
+    </ClCompile>
+    <ClCompile Include="player_info_view.cpp">
+      <Filter>View\player_info_view</Filter>
+    </ClCompile>
+    <ClCompile Include="tower_info_view.cpp">
+      <Filter>View\tower_info_view</Filter>
+    </ClCompile>
+    <ClCompile Include="creature_info_view.cpp">
+      <Filter>View\creature_info_view</Filter>
+    </ClCompile>
+    <ClCompile Include="Coord.cpp">
+      <Filter>Model\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature.cpp">
+      <Filter>Model\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="Tower.cpp">
+      <Filter>Model\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="TowerManager.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="status_view.cpp">
+      <Filter>View\status_view</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="tile_info_view.cpp">
+      <Filter>View\tile_info_view</Filter>
+    </ClCompile>
+    <ClCompile Include="info_pane_view.cpp">
+      <Filter>View\info_pane_view</Filter>
+    </ClCompile>
+    <ClCompile Include="filename_view.cpp">
+      <Filter>View\filename_view</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDeviceHandler.cpp">
+      <Filter>Controller\input_device_handler</Filter>
+    </ClCompile>
+    <ClCompile Include="Filesystem.cpp">
+      <Filter>Model\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverView.cpp">
+      <Filter>View\Game_Over_View</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutView.cpp">
+      <Filter>View\About_View</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpView.cpp">
+      <Filter>View\Help_View</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="tile.h">
+      <Filter>Model\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>Model\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="view.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="map_view.h">
+      <Filter>View\Map_View</Filter>
+    </ClInclude>
+    <ClInclude Include="main_menu_view.h">
+      <Filter>View\main_menu_view</Filter>
+    </ClInclude>
+    <ClInclude Include="cursor.h">
+      <Filter>Model\Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="game_state.h">
+      <Filter>Model\game_state</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Model\player</Filter>
+    </ClInclude>
+    <ClInclude Include="tower.h">
+      <Filter>Model\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="cannon.h">
+      <Filter>Model\Tower\Cannon</Filter>
+    </ClInclude>
+    <ClInclude Include="creature.h">
+      <Filter>Model\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewManager.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="sniper.h">
+      <Filter>Model\Tower\Sniper</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatureManager.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverView.h">
+      <Filter>View\Game_Over_View</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger\Logger.h">
+      <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="laser.h">
+      <Filter>Model\Tower\Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="bounding_box.h">
+      <Filter>View\bounding_box</Filter>
+    </ClInclude>
+    <ClInclude Include="td_console.h">
+      <Filter>Model\td_console</Filter>
+    </ClInclude>
+    <ClInclude Include="bounding_box_helper.h">
+      <Filter>View\bounding_box</Filter>
+    </ClInclude>
+    <ClInclude Include="player_info_view.h">
+      <Filter>View\player_info_view</Filter>
+    </ClInclude>
+    <ClInclude Include="tower_info_view.h">
+      <Filter>View\tower_info_view</Filter>
+    </ClInclude>
+    <ClInclude Include="info_pane_view.h">
+      <Filter>View\info_pane_view</Filter>
+    </ClInclude>
+    <ClInclude Include="creature_info_view.h">
+      <Filter>View\creature_info_view</Filter>
+    </ClInclude>
+    <ClInclude Include="Coord.h">
+      <Filter>Model\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerManager.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="status_view.h">
+      <Filter>View\status_view</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="tile_info_view.h">
+      <Filter>View\tile_info_view</Filter>
+    </ClInclude>
+    <ClInclude Include="filename_view.h">
+      <Filter>View\filename_view</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDeviceHandler.h">
+      <Filter>Controller\input_device_handler</Filter>
+    </ClInclude>
+    <ClInclude Include="Filesystem.h">
+      <Filter>Model\Filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutView.h">
+      <Filter>View\About_View</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpView.h">
+      <Filter>View\Help_View</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="maps\basic2.tdm">
+      <Filter>Maps</Filter>
+    </None>
+    <None Include="maps\basic3.tdm">
+      <Filter>Maps</Filter>
+    </None>
+    <None Include="maps\basic1.tdm">
+      <Filter>Maps</Filter>
+    </None>
+    <None Include="maps\basic4.tdm">
+      <Filter>Maps</Filter>
+    </None>
+    <None Include="maps\basic5.tdm">
+      <Filter>Maps</Filter>
+    </None>
+    <None Include="maps\basic6.tdm">
+      <Filter>Maps</Filter>
+    </None>
+  </ItemGroup>
+</Project>
